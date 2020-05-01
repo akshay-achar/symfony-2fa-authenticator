@@ -21,3 +21,7 @@
   - Create a controller, and service to generate the secret key for the Authenticator of that user to store in the DB  and display the QR code 
   - From the Front end do a normal login and go the secret key generator routes defined in the above step and generate the secret key, scan the QR code displayed, and logout.
   - Next time when you log in for the same user it will ask for the 2-factor authenticator password, just the enter the password from the Authenticator. 
+
+
+# References: 
+- https://github.com/scheb/two-factor-bundle
